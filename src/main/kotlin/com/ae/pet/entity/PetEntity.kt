@@ -1,4 +1,4 @@
-package com.ae.pet.entity.pet.entity
+package com.ae.pet.entity
 
 import javax.persistence.*
 
@@ -12,5 +12,8 @@ data class PetEntity(
     @Column(name = "name")
     var name: String = "",
     @Column(name = "age")
-    var age: Int = 0
+    var age: Int? = null,
+    @OneToOne(cascade = [CascadeType.ALL])
+    @JoinColumn(name = "person_id", referencedColumnName = "id")
+    var owner: PersonEntity? = null
 )
