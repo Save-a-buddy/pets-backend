@@ -1,7 +1,7 @@
-package com.ae.pet.entity.pet.controller
+package com.ae.pet.cases.pet.controller
 
-import com.ae.pet.entity.pet.entity.PetEntity
-import com.ae.pet.entity.pet.service.PetService
+import com.ae.pet.entity.PetEntity
+import com.ae.pet.cases.pet.service.PetService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

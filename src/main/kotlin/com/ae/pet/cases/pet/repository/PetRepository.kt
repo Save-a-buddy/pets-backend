@@ -1,6 +1,6 @@
-package com.ae.pet.entity.pet.repository
+package com.ae.pet.cases.pet.repository
 
-import com.ae.pet.entity.pet.entity.PetEntity
+import com.ae.pet.entity.PetEntity
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

@@ -1,6 +1,6 @@
-package com.ae.pet.entity.pet.service
+package com.ae.pet.cases.pet.service
 
-import com.ae.pet.entity.pet.entity.PetEntity
+import com.ae.pet.entity.PetEntity
 
 interface PetService {
 
