@@ -1,4 +1,4 @@
-package com.ae.pet.entity
+package com.ae.petapi.entity
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import javax.persistence.*

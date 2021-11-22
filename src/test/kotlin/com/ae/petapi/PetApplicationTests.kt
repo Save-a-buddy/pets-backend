@@ -1,4 +1,4 @@
-package com.ae.pet
+package com.ae.petapi
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

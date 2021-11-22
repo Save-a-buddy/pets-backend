@@ -24,3 +24,5 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
 server:
   port: 9191
+  servlet:
+    context-path: /pet/api
