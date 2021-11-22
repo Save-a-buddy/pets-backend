@@ -1,4 +1,4 @@
-package com.ae.pet
+package com.ae.petapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

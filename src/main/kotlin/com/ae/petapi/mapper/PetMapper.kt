@@ -1,9 +1,9 @@
-package com.ae.pet.mapper
+package com.ae.petapi.mapper
 
-import com.ae.pet.dto.PersonDto
-import com.ae.pet.dto.PetDto
-import com.ae.pet.entity.PersonEntity
-import com.ae.pet.entity.PetEntity
+import com.ae.petapi.dto.PersonDto
+import com.ae.petapi.dto.PetDto
+import com.ae.petapi.entity.PersonEntity
+import com.ae.petapi.entity.PetEntity
 
 
 fun PetDto.toPetEntity() = PetEntity(

@@ -1,7 +1,7 @@
-package com.ae.pet.cases.pet.service
+package com.ae.petapi.feature.pet.service
 
-import com.ae.pet.entity.PetEntity
-import com.ae.pet.cases.pet.repository.PetRepository
+import com.ae.petapi.entity.PetEntity
+import com.ae.petapi.feature.pet.repository.PetRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

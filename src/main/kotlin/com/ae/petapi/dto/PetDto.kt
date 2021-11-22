@@ -1,4 +1,4 @@
-package com.ae.pet.dto
+package com.ae.petapi.dto
 
 
 data class PetDto(
